@@ -1,4 +1,21 @@
 .fm-body {
   background-color: black;
   color: lightcyan;
+  width: 100%;
+}
+
+
+.fm-images {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.fm-image {
+  width: 10%;
+  float: left;
+}
+
+img {
+  width: 100%;
 }
