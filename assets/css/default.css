@@ -13,36 +13,9 @@
 
 .fm-image {
   width: 10%;
-  position: absolute;
+  float: left;
 }
 
 img {
   width: 100%;
-}
-
-@keyframes float-left-to-right {
-  0% {
-    top: 0;
-    left: 0;
-  }
-
-  25% {
-    top: 50%;
-    left: 100%;
-  }
-
-  50% {
-    top: 100%;
-    left: 50%;
-  }
-
-
-  100% {
-    top: 0;
-    left: 0;
-  }
-}
-
-.fm-image--float {
-
 }
