@@ -16,7 +16,7 @@
   width: 10%;
   display: block;
   position: absolute;
-  animation: floating-sticker-01 10s infinite
+  /* animation: floating-sticker-01 10s infinite */
 }
 
 .fm-image--1 {
