@@ -35,6 +35,31 @@
   animation: floating-sticker-04 10s infinite;
 }
 
+.fm-image--5 {
+  animation: floating-sticker-05 10s infinite;
+}
+
+.fm-image--6 {
+  animation: floating-sticker-06 10s infinite;
+}
+
+.fm-image--7 {
+  animation: floating-sticker-07 10s infinite;
+}
+
+.fm-image--8 {
+  animation: floating-sticker-08 10s infinite;
+}
+
+.fm-image--9 {
+  animation: floating-sticker-09 10s infinite;
+}
+
+.fm-image--10 {
+  animation: floating-sticker-10 10s infinite;
+}
+
+
 img {
   width: 100%;
 }
@@ -164,5 +189,187 @@ img {
     right: 0vw;
     top: 10vh;
     transform: rotate(0deg);
+  }
+}
+
+@keyframes floating-sticker-05 {
+  0% {
+    left: 0vw;
+    top: 80vh;
+    transform: rotate(40deg);
+  }
+
+  25% {
+    left: 20vw;
+    top: 0vh;
+    transform: rotate(120deg);
+  }
+
+  50% {
+    left: 60vw;
+    top: 50vh;
+    transform: rotate(80deg);
+  }
+
+  75% {
+    left: 100vw;
+    top: 50vh;
+    transform: rotate(100deg);
+  }
+
+  100% {
+    left: 0vw;
+    top: 80vh;
+    transform: rotate(40deg);
+  }
+}
+
+@keyframes floating-sticker-06 {
+  0% {
+    left: 50vw;
+    top: 0vh;
+    transform: rotate(30deg);
+  }
+
+  25% {
+    left: 30vw;
+    top: 0vh;
+    transform: rotate(15deg);
+  }
+
+  50% {
+    left: 20vw;
+    top: 90vh;
+    transform: rotate(-60deg);
+  }
+
+  75% {
+    left: 10vw;
+    top: 5vh;
+    transform: rotate(0deg);
+  }
+
+  100% {
+    left: 50vw;
+    top: 0vh;
+    transform: rotate(30deg);
+  }
+}
+
+@keyframes floating-sticker-07 {
+  0% {
+    left: 90vw;
+    top: 35vh;
+    transform: rotate(72deg);
+  }
+
+  25% {
+    left: 5vw;
+    top: 50vh;
+    transform: rotate(-5deg);
+  }
+
+  50% {
+    left: 15vw;
+    top: 10vh;
+    transform: rotate(0deg);
+  }
+
+  75% {
+    left: 54vw;
+    top: 25vh;
+    transform: rotate(50deg);
+  }
+
+  100% {
+    left: 90vw;
+    top: 35vh;
+    transform: rotate(72deg);
+  }
+}
+
+@keyframes floating-sticker-08 {
+  0% {
+    left: 10vw;
+    top: 32vh;
+    transform: rotate(0deg);
+  }
+
+  25% {
+    left: 90vw;
+    top: 50vh;
+    transform: rotate(-5deg);
+  }
+
+  50% {
+    left: 10vw;
+    top: 70vh;
+    transform: rotate(0deg);
+  }
+
+  75% {
+    left: 90vw;
+    top: 5vh;
+    transform: rotate(5deg);
+  }
+
+  100% {
+    left: 10vw;
+    top: 32vh;
+    transform: rotate(72deg);
+  }
+}
+
+@keyframes floating-sticker-09 {
+  0% {
+    left: 0vw;
+    top: 0vh;
+  }
+
+  25% {
+    left: 90vw;
+    top: 0vh;
+  }
+
+  50% {
+    left: 90vw;
+    top: 80vh;
+  }
+
+  75% {
+    left: 0vw;
+    top: 80vh;
+  }
+
+  100% {
+    left: 0vw;
+    top: 0vh;
+  }
+}
+
+@keyframes floating-sticker-10 {
+  0% {
+    left: 0vw;
+    top: 0vh;
+  }
+
+  25% {
+    left: 90vw;
+    top: 0vh;
+  }
+
+  50% {
+    left: 90vw;
+    top: 80vh;
+  }
+
+  75% {
+    left: 0vw;
+    top: 80vh;
+  }
+
+  100% {
+    left: 0vw;
+    top: 0vh;
   }
 }
